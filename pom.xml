@@ -33,6 +33,12 @@
     <!-- По умолчанию собираются examples и solutions: зелёная сборка = материал корректен.
          Модули добавляются в планах 2–4. -->
     <modules>
+        <module>redis/examples</module>
+        <module>redis/solutions</module>
+        <module>cassandra/examples</module>
+        <module>cassandra/solutions</module>
+        <module>mongodb/examples</module>
+        <module>mongodb/solutions</module>
     </modules>
 
     <profiles>
@@ -40,6 +46,9 @@
         <profile>
             <id>tasks</id>
             <modules>
+                <module>redis/tasks</module>
+                <module>cassandra/tasks</module>
+                <module>mongodb/tasks</module>
             </modules>
         </profile>
     </profiles>
